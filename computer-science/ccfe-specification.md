@@ -26,6 +26,7 @@ Cost measures the operational distance between the language's Normal Final Form 
 Confusion measures the language's ability to abide by it's own rules. In other words, confusion increases based on the number of edge cases within the linker, parser, compiler, etc. It is defined by two sub-vectors:
 * **Complexity:** The degree to which a language's syntax is dissimilar to its already established rules. Lisp should score near 0 for this, but machine code should **also** score near 0 for this, while C++ should score higher.
 * **Operator Inclusion:** For measurement purposes, symbolic operators (`+`, `==`, etc.) are treated identically to textual keywords and must be counted toward the language's structural footprint.
+* **Multi-paradigm Tax:** The tax imposed on a language for supporting multiple programming paradigms (e.g., imperative, functional, object-oriented) *under the hood*. Emulating multiple paradigms via a single paradigm (e.g., Java's functional syntax) should not be penalized.
 
 ### Friction
 Friction measures the developer's pain with using the language. It is defined by multiple sub-vectors:
@@ -41,7 +42,7 @@ The Era metric, arguably the most important one, represents the historical times
 
 ### Open Areas of Concern (RFC Feedback Required)
 We are actively seeking feedback and mathematical patches for the following edge cases:
-1. **Multi-Paradigm Weights:** How should the parser weigh keywords in multi-paradigm languages (like Python) where developers can achieve the exact same output using entirely different functional, procedural, or object-oriented keyword structures?
+1. **Multi-Paradigm Weights:** How should the parser weigh keywords in multi-paradigm languages (like Python) where developers can achieve the exact same output using entirely different functional, procedural, or object-oriented keyword structures? **Proposed Solution:** Consider which paradigm is the most idiomatic, and if they are all equally valid, then take the average.
 2. **Formulae Undefined:** How should we calculate each of the 4 values of the language?
 
 ## Formatting/Usage Guide
