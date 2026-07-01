@@ -2,7 +2,7 @@
 
 > **Status**: Active RFC (Request for Comments)
 
-> **Version**: 0.1.0
+> **Version**: 0.2.0
 
 > **Author**: BurningHot687
 
@@ -11,7 +11,7 @@
 ## Overview
 The Data-Logic-Fractal (DLF) framework is a hierarchical classification system that uses a self-similar classification to organize astronomical bodies. It is meant to mark a clean delineation between the internal state and external state of an object.
 
-## Part 1: Planets
+## Part 1: Planetary Objects
 The IAU definition of a planet has caused major controversy among the general public and several astronomers. Therefore, we will use a different definition for a planet.
 ### Geophysical vs Dynamic Definition
 To maximize usability and ease-of-switching, there will be two definitions. We will now define a **Dromot**.
@@ -30,7 +30,7 @@ To provide more clarity, there are prefixes to which you can include before drom
 7. **Bary**dromot: A dromot orbiting a dominant body where the barycenter is outside the dominant body (e.g. Pluto and Charon).
 
 ### Pseudodromot Definition
-To adjust for the lower tier of bodies, a new category can be made for objects greater than _ but less than _. This allows for a more granular approach to the hydrostatic equilibrium. To illustrate: Ceres and Vesta are pseudodromots.
+To adjust for the lower tier of bodies, a new category can be made for objects greater than $10^{19}\hspace{0.1cm}\text{kg}$ but less than $10^{21}\hspace{0.1cm}\text{kg}$. This allows for a more granular approach to the hydrostatic equilibrium. To illustrate: Ceres and Vesta are pseudodromots.
 
 ### Planet Definition
 Under this new definition of dromots, we may now define a **Planet** as a dromot that satisfies **two** dominance equations.
@@ -51,6 +51,17 @@ An astronomical body is classified as a **Pseudoplanet** if it is a dromot that 
 
 1. **Observational Limitation**: The body satisfies Margot's criterion ($\Pi > 1$), but Soter's criterion ($\mu > 100$) cannot be calculated due to a lack of observational data regarding local debris (e.g., most unmapped exoplanetary systems).
 2. **Environmental Boundary**: The body possesses the physical mass required to clear an orbit over time ($\Pi > 1$), but currently resides in a highly dense debris field that prevents it from satisfying the environmental census ($\mu < 100$).
+
+## Part 2: Stellar Objects
+A stellar object is a single body which is gravitationally bound to itself such that internal energy generation processes result in a hydrostatic equilibrium with gravity. To avoid clashing with planetary definitions, it must be larger than $13\hspace{0.1cm}\text{Jupiter masses}$. While this upper limit isn't accurate to the true boundary or nuance of brown dwarves and gas giants, it is the most pragmatic choice considering the current inability to discern these nuances.
+
+### Star Definition
+A **Star** is defined as any stellar object actively undergoing nucleosynthesis (atomic fusion) along the standard stellar lifecycle. This includes the fusion of hydrogen, helium, carbon, oxygen, and neon, up to the silicon-to-iron peak. 
+
+*Note*: This technically means there are no true dead stars. Stars cease to exist at the exact halting of nucelosynthesis, leaving behind a remnant and a collection of gas and plasma.
+
+### Pseudostar Definition
+A pseudostar is every other stellar object which isn't a star. Notable examples include brown dwarves and Thorne–Żytkow Objects.
 
 ## References
 
