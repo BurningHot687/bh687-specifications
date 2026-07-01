@@ -17,7 +17,7 @@ The IAU definition of a planet has caused major controversy among the general pu
 To maximize usability and ease-of-switching, there will be two definitions. We will now define a **Dromot**.
 
 ### Dromot Definition
-A dromot is any celestial body that is between $10^{21} \text{kg}$ and $13 \text{Jupiter masses}$ exactly. This definition is arbitrary; however, this is due to the need for classification in a pragmatic stance. The lower limit represents the approximate lower bound for hydrostatic equilibrium and the upper limit represents the mass limit for deuterium fusion. To illustrate: Pluto, Earth, Venus, and Jupiter are all dromots. The name was based off of *dromos*, which was chosen because it was somewhat synonymous with *planetes*.
+A dromot is any celestial body that is between $10^{21}\hspace{0.1cm}\text{kg}$ and $13\hspace{0.1cm}\text{Jupiter masses}$ exactly. This definition is arbitrary; however, this is due to the need for classification in a pragmatic stance. The lower limit represents the approximate lower bound for hydrostatic equilibrium and the upper limit represents the mass limit for deuterium fusion. To illustrate: Pluto, Earth, Venus, and Jupiter are all dromots. The name was based off of *dromos*, which was chosen because it was somewhat synonymous with *planetes*.
 
 ### Dromot Prefixes
 To provide more clarity, there are prefixes to which you can include before dromot.
