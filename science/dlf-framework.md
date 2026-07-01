@@ -38,13 +38,13 @@ Under this new definition of dromots, we may now define a **Planet** as a dromot
 1. **Margot's Planetary Discriminant ($\Pi$)**: The body must be massive enough to clear its orbital zone within the lifetime of its host star [[1]](#1-margot-2015).
 $$\Pi = \frac{M_p}{M_{\text{Clear}}} > 1$$
 
-Where the required clearing mass ($M_{\text{Clear}}$) is calculated using the star's mass ($M_\star$) and the planet's semi-major axis ($a$):
+- Where the required clearing mass ($M_{\text{Clear}}$) is calculated using the star's mass ($M_\star$) and the planet's semi-major axis ($a$):
 $$M_{\text{Clear}} = 3 \times 10^{-4} \cdot M_\star^{5/8} \cdot \left( \frac{a}{1 \text{ AU}} \right)^{9/8}$$
 
 2. **Soter's Planetary Discriminant ($\mu$)**: The body must dynamically dominate the other objects sharing its orbital zone by a factor of at least 100 [[2]](#2-soter-2006).
 $$\mu = \frac{M}{m} > 100$$
 
-Where $M$ is the mass of the candidate body and $m$ is the total collective mass of all other bodies that cross or share its orbital zone (excluding its own satellites).
+- Where $M$ is the mass of the candidate body and $m$ is the total collective mass of all other bodies that cross or share its orbital zone (excluding its own satellites).
 
 ### Pseudoplanet Definition
 An astronomical body is classified as a **Pseudoplanet** if it is a dromot that satisfies only **one** of the two planetary dominance criteria. This classification is primarily applied in two scenarios:
