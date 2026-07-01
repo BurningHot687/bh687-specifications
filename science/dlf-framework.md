@@ -29,6 +29,9 @@ To provide more clarity, there are prefixes to which you can include before drom
 6. **Sub**dromot: A dromot orbiting a dominant body where the barycenter is within the dominant body (e.g. a satellite).
 7. **Bary**dromot: A dromot orbiting a dominant body where the barycenter is outside the dominant body (e.g. Pluto and Charon).
 
+### Pseudodromot Definition
+To adjust for the lower tier of bodies, a new category can be made for objects greater than _ but less than _. This allows for a more granular approach to the hydrostatic equilibrium. To illustrate: Ceres and Vesta are pseudodromots.
+
 ### Planet Definition
 Under this new definition of dromots, we may now define a **Planet** as a dromot that satisfies **two** dominance equations.
 
